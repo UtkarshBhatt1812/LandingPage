@@ -1,7 +1,7 @@
 export const Navbar = ()=>{
   return (
     <> 
-      <div className="flex bg-white h-13 items-center justify-between p-4 text-xs shadow-xl font-lighter text-neutral-500 font-[Geist Mono] " >
+      <div className="flex bg-white h-13 items-center justify-between p-4 text-xs shadow-xl font-lighter text-neutral-500 font-[Geist_Mono] sticky top-0 z-10" >
         <img src="../../public/Enterpret_logo.svg" alt="" className="ml-8 "/>
         <div className="flex items-center gap-4 ml-30"> 
             <a href="" className="px-2 py-1 hover:text-black">Platform</a>

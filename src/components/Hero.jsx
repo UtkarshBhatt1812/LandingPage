@@ -8,19 +8,19 @@ function Hero() {
   return (
     <div
       className="
-  absolute w-full m-0 
+     w-full m-0 
   h-390
   bg-fixed
-  bg-[linear-gradient(to_bottom,white,rgb(220,227,211),rgb(242,240,237)_70%)]
+  bg-[linear-gradient(to_bottom,white,rgb(220,227,211),rgb(242,240,237)_70%)] pt-20
 "
     >
       <p
         className="
-  w-fit px-2 py-1 mt-20 ml-30 uppercase 
+  w-fit px-2 py-1  ml-30 uppercase 
   font-[Geist_Mono] font-normal text-xs antialiased
   border border-white rounded-lg
   bg-[linear-gradient(to_right,rgba(255,255,255,0.7),#e8ede1_30%,rgba(255,255,255,0.7)_80%)]
-  backdrop-blur-sm 
+  backdrop-blur-sm z-0
 
 "
       >
@@ -108,7 +108,7 @@ function Hero() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-          className="h-150 w-270 mx-10 my-0.5"
+          className="h-150 w-270 mx-10 my-0.5 drop-shadow-2xl"
         ></iframe>
       </div>
       <p className="ml-30 mb-2 font-extralight text-xs text-neutral-400 flex items-center p-2">

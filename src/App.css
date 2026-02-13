@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
 body{
-  font-family: "Geist Mono", Helvetica, sans-serif;
+  font-family: "Geist_Mono", Helvetica, sans-serif;
+  background-color: white;
 }
