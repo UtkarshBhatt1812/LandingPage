@@ -4,7 +4,7 @@ function GridComponent({ src }) {
       <img
         src={src}
         alt=""
-        className="h-18 w-20 invert-50 group-hover:invert-0 transition-all duration-300"
+        className="h-18 w-20 invert-50 group-hover:invert-0 transition-all duration-500 ease-in-out"
       />
     </div>
   );

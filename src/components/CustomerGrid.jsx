@@ -66,7 +66,7 @@ function CustomerGrid() {
     },
   ];
   return (
-    <div className="grid grid-cols-5 gap-0.5 mx-10 ml-30">  
+    <div className="grid grid-cols-5 gap-0.5 mx-10 ml-30 mr-30">  
       {customer.map((cus, index) => {
        return <GridComponent key={index} src={cus.path} name={cus.name} />;
       })}
