@@ -1,5 +1,11 @@
 import React from 'react'
 import Card from './Card'
+import Description from './Description';
+
+
+
+
+
 function SubHero() {
   return (
     <div className='flex flex-col text-center mt-20 items-center'>
@@ -13,6 +19,22 @@ function SubHero() {
         <Card src ='../../public/Act.png' text='Act on insights and close the loop with AI Agents and automated workflows' alt='Act'/>
         </div>
 
+        <Description Badgetext='Unify' Heading='Unify feedback with your business context to prioritize what truly matters' 
+        
+        sublinks={
+
+
+['Customer feedback integration',
+'Adaptive Taxonomy',
+'CUSTOMER KNOWLEDGE GRAPH',
+'Data Enrichment']
+
+
+}
+        
+        />
+
+        
         
 
     </div>
