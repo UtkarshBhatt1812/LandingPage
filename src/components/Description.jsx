@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import SubDescription from './SubDescription'
 import SubLinks from './SubLinks'
-function Description(props) {
+const Description = forwardRef((props,ref)=> {
   return (
-    <div className='mx-30 p-2 mt-40 mb-20  w-[80%] flex flex-col justify-start'>
+    <div className='mx-30 p-2 mt-40 mb-20  w-[80%] flex flex-col justify-start scroll-mt-7' ref={ref}>
         <div className='flex  items-center gap-4 text-sm font-extralight text-[#0C0E1C] font-[Geist] w-fit mb-4 '>
             <img src="../../public/badge.svg" alt="badge"  /> <p>{props.Badgetext}</p>
         </div>
@@ -22,6 +22,6 @@ function Description(props) {
 
     </div>
   )
-}
+})
 
 export default Description
